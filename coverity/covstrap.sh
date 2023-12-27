@@ -9,13 +9,13 @@
 
 #
 #  This script is supposed to quickly bootstrap Coverity Scan environment for GitHub Actions
-#  to be later used with Acidanthera products.
+#  to be later used with devicemanager products.
 #
 #  Latest version available at:
-#  https://raw.githubusercontent.com/acidanthera/ocbuild/master/coverity/covstrap.sh
+#  https://raw.githubusercontent.com/devicemanager/ocbuild/master/coverity/covstrap.sh
 #
 #  Example usage:
-#  src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/ocbuild/master/coverity/covstrap.sh) && eval "$src" || exit 1
+#  src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/devicemanager/ocbuild/master/coverity/covstrap.sh) && eval "$src" || exit 1
 #
 
 abort() {
